@@ -8,7 +8,7 @@
 
 
 import Queue
-from ClawThread import ClawThread
+from clawThread import ClawThread
 from optparse import OptionParser
 import logging
 import time
