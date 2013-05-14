@@ -8,12 +8,12 @@
 
 
 import threading
-from bs4 import BeautifulSoup
-from WebPage import GetPage
 import re
 import urllib2
-from SaveDB import SaveDatabase
 import logging
+from bs4 import BeautifulSoup
+from WebPage import GetPage
+from SaveDB import SaveDatabase
 
 
 log = logging.getLogger('claw.ClawThread')
